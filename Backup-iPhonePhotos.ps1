@@ -1,4 +1,4 @@
-$DestPath = "D:\iphone15pic"
+$DestPath = "D:\iphonepic"
 
 $Shell = New-Object -ComObject Shell.Application
 $ThisPC = $Shell.NameSpace(17)
