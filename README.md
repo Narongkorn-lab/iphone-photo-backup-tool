@@ -48,7 +48,7 @@ To prevent USB disconnection bugs during file transfer:
 
 ```
 
-> **Note:** The default destination path is `D:\iphone15pic`. You can edit `$DestPath` inside the script to change your preferred backup location.
+> **Note:** The default destination path is `D:\iphonepic`. You can edit `$DestPath` inside the script to change your preferred backup location.
 
 ---
 
@@ -61,8 +61,8 @@ After completing the backup, verify that all files have been transferred safely 
 
 ```powershell
 .\Verify-iPhonePhotos.ps1
-
 ```
+> **Note:** The default destination path is `D:\iphonepic`. You can edit `$DestPath` inside the script to change your preferred backup location.
 
 This script leverages `.NET` directory enumeration and top-level MTP indexing to instantly compare the total file counts between your iPhone and PC without freeze or delay.
 
