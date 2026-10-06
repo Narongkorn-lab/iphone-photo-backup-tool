@@ -1,5 +1,5 @@
 # 1. Set the destination path on PC
-$DestPath = "D:\iphone15pic"
+$DestPath = "D:\iphonepic"
 
 # 2. Connect to Windows Shell COM API
 $shell = New-Object -ComObject Shell.Application
